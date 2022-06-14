@@ -1,6 +1,6 @@
 .header {
     font-size: 40px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .body {
@@ -55,3 +55,27 @@
 }
 
 .btn:hover {background: #eee;}
+
+
+
+
+.Help {
+    font-family: 'Open Sans', sans-serif;
+    top: 150px;
+    left: 30px;
+    font-size: 38px;
+    position: absolute;
+
+}
+
+
+.Util {
+    top: 250px;
+    left: 90px;
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 33px;
+    -webkit-text-stroke: 1px rgb(50, 109, 199);
+
+}
+
