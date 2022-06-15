@@ -1,0 +1,82 @@
+.ban {
+    top: 150px;
+    position: absolute;
+}
+
+.bu {
+    top: 220px;
+    position: absolute;
+}
+
+.bd {
+    top: 250px;
+    position: absolute;
+}
+
+.kick {
+    top: 300px;
+    position: absolute;
+}
+
+.ku {
+    top: 370px;
+    position: absolute;
+}
+
+.kd {
+    top: 400px;
+    position: absolute;
+}
+
+.prefix {
+    top: 450px;
+    position: absolute;
+}
+
+.pu {
+    top: 520px;
+    position: absolute;
+}
+
+.pd {
+    top: 550px;
+    position: absolute;
+}
+
+.unban {
+    top: 600px;
+    position: absolute;
+}
+
+.uu {
+    top: 670px;
+    position: absolute;
+}
+
+.ud {
+    top: 700px;
+    position: absolute;
+}
+/* sub command desc*/
+.desc {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Sub command title*/
+.sct {
+    font-size: 40px;
+}
+
+/* subcommand font*/
+.sf {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+
+
+
+
+
