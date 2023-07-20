@@ -21,7 +21,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(111, 149, 220);
+    background-image: linear-gradient(blue, dark-blue);
 }
 
 
