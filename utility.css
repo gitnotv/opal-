@@ -3,6 +3,11 @@
     position: absolute;
 }
 
+body {
+    background-color: rgb(111, 140, 220);
+    margin: 0px;
+}
+
 .bu {
     top: 220px;
     position: absolute;
