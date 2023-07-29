@@ -3,11 +3,6 @@
     position: absolute;
 }
 
-body {
-    background-color: rgb(111, 140, 220);
-    margin: 0px;
-}
-
 .bu {
     top: 220px;
     position: absolute;
@@ -65,23 +60,40 @@ body {
 /* sub command desc*/
 .desc {
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: aliceblue;
 }
 
 
 /* Sub command title*/
 .sct {
     font-size: 40px;
+    color: aliceblue;
 }
 
 /* subcommand font*/
 .sf {
     font-family: 'Red Hat Display', sans-serif;
+    color: aliceblue;
+}
+
+.rt {
+    left: 80px
+}
+
+.rtd {
+    left: 90px
 }
 
 
 
+.setting {
+    top: 40px;
+    left: 710px;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    
 
-
-
+}
 

@@ -2,16 +2,21 @@
 
 /* Header markdown class*/
 .header {
-    font-size: 40px;
+    font-size: 55px;
     font-family: 'Open Sans', sans-serif;
+    color: #eee;
+    text-align: center;
 }
 
 
 
 /* Body markdown class*/
+.body {
+    background-color: rgb(0, 18, 66);
+}
+
 body {
-    background-color: rgb(111, 140, 220);
-    margin: 0px;
+    margin: 0;    
 }
 
 /* Top div markdown class*/
@@ -21,57 +26,69 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-image: linear-gradient(blue, dark-blue);
+    background-color: rgb(0, 18, 53);
 }
 
 
 
 /* Button outer markdown*/
 .btn {
-    border: none;
-    background-color: inherit;
-    padding: 16px 30px;
-    font-size: 20px;
-    font-family: 'Lato', sans-serif;
-    cursor: pointer;
-    display: inline-block;
+    font-size: 40px;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    
+    transition: 0.2s;
+
+    background-color: rgb(0, 18, 66);
   }
 
 
 /* Button text inherit*/
 .default {
-    color: rgb(0, 0, 0);
-    background-color: rgb(74, 136, 195);
-    border-radius: 10px;
-    top: 32px;
+    border-style: hidden;
+    border-radius: 2px;
+    border-color: #2196f3;
+    top: 220px;
     stroke-opacity: 1;
-    left: 85%;
+    left: 2%;
+
     position:  absolute;
 }
 
 /* Button text inherit*/
 .default2 {
-    color: rgb(0, 0, 0);
-    background-color: rgb(74, 136, 195);
-    border-radius: 10px;
-    top: 32px;
+    border-style: hidden;
+    top: 330px;
     stroke-opacity: 1;
-    left: 75%;
+    left: 2%;
     position:  absolute;
 }
 
-/* On button hover*/
-.btn:hover {background: #eee;}
+.ad {
+    top: 40px;
+    left: 455px;
+    position: absolute;
+    width: 80px;
+    height: 70px;
+    
+
+}
+
 
 
 
 /* Help subtitle*/
 .Help {
     font-family: 'Open Sans', sans-serif;
-    top: 150px;
-    left: 30px;
-    font-size: 38px;
+    top: 200px;
+    left: 800px;
+    font-size: 50px;
+    color: #2196f3;
     position: absolute;
+    letter-spacing: 4px;
 
 }
 
@@ -79,7 +96,7 @@ body {
 .page {
     font-family: 'Open Sans', sans-serif;
     font-size: 33px;
-    -webkit-text-stroke: 1px rgb(50, 109, 199);
+    -webkit-text-stroke: 1px rgb(1, 18, 43);
     border: 10;    
 }
 
@@ -113,3 +130,11 @@ body {
 
 
 
+
+.btn:hover {
+    stroke-width: 0%;
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 10px #2196f3, 0 0 10px #2196f3;
+
+}
